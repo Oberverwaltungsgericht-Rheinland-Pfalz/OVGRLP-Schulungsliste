@@ -1,12 +1,18 @@
 
 export default {
     name: 'modal',
-	props: ['header', 'text'],
+	props: ['header', 'text', 'message'],
 	data(){
 		return {
 		}
 	},
 	methods:{
+		escape(text){
+  		  if(!text) return ""
+		  
+		  return text.replace(/(?:\r\n|\r|\n)/g, '<br>');
+	  		
+		},
 		close(){
 			this.$emit('close')
 		}
@@ -14,11 +20,14 @@ export default {
     
     template: `
       <div class="modal-background" @click="close">
-	    <div class="modal">
+	    <div class="modal" :class="{message: message}">
 	      <div class="modal-header">
+		    <span>&#9447;</span>
 		    <h3>{{header}}</h3>
           </div>
-		  <p v-html="text"></p>
+		  <div class="modal-content">
+		    <span v-html="escape(text)"></span>
+		  </div>
 		</div>
       </div>	  
     `,
