@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src="vue.global.js"></script>
+<style>
+h1{text-align:center;}
+#rahmen{display:flex;flex-wrap:wrap;}
+.door{border: 1px solid black; min-height: 8rem; min-width:8rem;text-align:center;margin:1rem;line-height: 8rem;font-size:2rem;font-family:cursive;cursor:grab;}
+.door:hover{box-shadow: 1px 1px 3px 4px gold}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script type="module">
+    import app from './app.js'
+    const {createApp} = Vue;
+    createApp(app).mount('#app');
+</script>
+
+</body>
+</html>
