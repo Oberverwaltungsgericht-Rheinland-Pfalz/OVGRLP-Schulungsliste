@@ -30,7 +30,7 @@ export default {
 			var d = new Date();
 			var date = d.getDate()
 			if(cDay.tag > date && d.toISOString() < '2021-12-24') {
-				this.openModal('Zu früh', "Auf den "+cDay.tag+". Dezember musst du noch etwas warten 😿", true)
+				this.openModal(hinweise.waitInfoHeader, hinweise.waitInfo.replace(/{clickedDay}/g, cDay.tag), true)
 				return;
 			}
 
