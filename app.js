@@ -15,7 +15,7 @@ export default {
 	data(){
 		return {
 			liste: [], 
-			text:'', header:'', showModal: false, modalMessage: false,
+			text:'', header:'', showModal: false, modalMedia: '', modalMessage: false,
 			content: content.sort(() => Math.random() - 0.5),
 		}
 	},
@@ -35,15 +35,16 @@ export default {
 			}
 
 			// Zeige Infotext
-			this.openModal(cDay.header, cDay.text)
+			this.openModal(cDay.header, cDay.text, cDay.media)
 			this.liste.push(cDay.tag)
 			this.persist()
 		},
-		openModal(header, text, message){
+		openModal(header, text, media, message){
 			this.text = text
 			this.header = header
 			this.modalMessage = Boolean(message)
-			this.showModal = true;
+			this.modalMedia = media || ""
+			this.showModal = true
 		},
 		persist(){
 			localStorage.setItem(hinweise.dbKeyCheckDoors, JSON.stringify(this.liste))
@@ -55,7 +56,7 @@ export default {
     
     template: `
       <div>
-	  <modal v-if="showModal" @close="showModal=false" 
+	  <modal v-if="showModal" @close="showModal=false" :media="modalMedia"
 		:text="text" :header="header" :message="modalMessage"/>
         <h1>{{title}}</h1>
 		<div id="rahmen">
