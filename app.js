@@ -66,7 +66,7 @@ export default {
 			</div>
 		  </div>
 		</div>
-		<span class="cp-mark">{{copyrightMark}}</span>
+		<div class="cp-mark">{{copyrightMark}}</div>
       </div>
     `,
 };

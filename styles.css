@@ -108,4 +108,8 @@ body {
 .cp-mark{
     color: white;
     background-color: #a9a9a980;
+	margin: auto;
+    margin-top: 1rem;
+    max-width: calc(1244px - 2rem);
+    text-align: center;
 }
