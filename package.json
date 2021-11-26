@@ -1,0 +1,26 @@
+{
+  "name": "tuerchen-liste-adventskalender",
+  "version": "1.2.0",
+  "description": "Für eine Awareness Kampagne der Informationssicherheit programmiert als Adventskalender. Kann beliebig viele Zahlen auflisten, hinter denen sich Texte und Medieninhalte verbergen. Geeignet auch für Schulungsinhalte.",
+  "main": "index.html",
+  "scripts": {
+	"dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.o4oe.de/ovgrlp/tuerchen-liste-adventskalender.git"
+  },
+  "keywords": [
+    "kalender",
+    "schulung"
+  ],
+  "author": "Oberverwaltungsgericht Rheinland-Pfalz",
+  "license": "EUPL-1.2",
+  "dependencies": {
+    "vue": "^3.2.23"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

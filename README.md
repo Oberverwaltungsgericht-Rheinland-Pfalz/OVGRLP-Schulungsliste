@@ -65,3 +65,16 @@ unless you want to contribute back to the upstream project.
 [index.html]: https://gitlab.com/pages/plain-html/blob/master/public/index.html
 [userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
 [projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+
+# Kontakt
+
+Oberverwaltungsgericht Rheinland-Pfalz, Deinhardpassage 1, 56068 Koblenz 
+Telefon: 0261 1307 - 0
+poststelle(at)ovg.jm.rlp.de
+
+# Lizenz
+
+Copyright © 2021 Oberverwaltungsgericht Rheinland-Pfalz 
+Lizenziert unter der EUPL, version 1.2 oder höher
+Für weitere Details siehe Lizenz.txt oder EUPL-1.2 EN.txt
+oder online unter https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
