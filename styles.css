@@ -8,7 +8,7 @@ h1{
 #rahmen{
 	font-family:cursive;
 	display:flex;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 	max-width:1244px;
 	margin:auto;
 }
@@ -26,6 +26,8 @@ h1{
 	width:17vh;
 	height:17vh;
 	position: relative;
+    display: flex;
+    justify-content: center;
 }
 @media (max-width: 1244px) {
     .door {
@@ -120,4 +122,8 @@ body {
     margin-top: 1rem;
     max-width: calc(1244px - 2rem);
     text-align: center;
+}
+
+#modal-img {
+    height:100%; max-height: calc(100vh - 5rem); max-width: calc(100vw - 3rem);
 }
