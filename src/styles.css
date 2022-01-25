@@ -41,7 +41,7 @@ h1{
 	box-shadow: 1px 1px 3px 4px gold
 }
 body {
- background-image: url("bilder/hintergrund.jpg");
+ background-image: url("../images/hintergrund.jpg");
  background-color: #cccccc; background-position: center;
 }
 .mark { 

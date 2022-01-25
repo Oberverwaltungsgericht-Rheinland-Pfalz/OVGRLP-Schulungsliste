@@ -1,80 +1,37 @@
-![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)
+# Türchen-Liste für Schulungen
+
+Eine generische Software für die sukzessive Abarbeitung von multi-medialen Inhalten.
+
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ---
 
-Example plain HTML site using GitLab Pages.
+# Konfigurationen
 
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
-
----
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [GitLab CI](#gitlab-ci)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## GitLab CI
-
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
-
-```
-image: alpine:latest
-
-pages:
-  stage: deploy
-  script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-```
-
-The above example expects to put all your HTML files in the `public/` directory.
-
-## GitLab User or Group Pages
-
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
-
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
-
-## Did you fork this project?
-
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
-
-## Troubleshooting
-
-1. CSS is missing! That means that you have wrongly set up the CSS URL in your
-   HTML files. Have a look at the [index.html] for an example.
-
-[ci]: https://about.gitlab.com/gitlab-ci/
-[index.html]: https://gitlab.com/pages/plain-html/blob/master/public/index.html
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+* Alle sichtbaren Texte sind in den beiden Text-Dateien im 'configurationen'-Ordner gespeichert.
+	* In 'allgemein.js' können die allgemeinen texte bearbeitet werden.
+	* In 'karten.js' werden alle sichbaren Inhalte aufgelistet, welche von den Nutzern abgearbeitet werden sollen.
+* Im Ordner images ist das jeweilige Hintergrundbild unter 'hintergrundbild.jpg' abgelegt.
+* Im Ordner media werden alle Bilder und Videos der Inhaltskarten erwartet welche in 'karten.js' definiert werden.
 
 # Kontakt
 
-Oberverwaltungsgericht Rheinland-Pfalz, Deinhardpassage 1, 56068 Koblenz 
+Oberverwaltungsgericht Rheinland-Pfalz, 
+Deinhardpassage 1, 56068 Koblenz 
 Telefon: 0261 1307 - 0
 poststelle(at)ovg.jm.rlp.de
 
 # Lizenz
 
 Copyright © 2021 Oberverwaltungsgericht Rheinland-Pfalz 
-Lizenziert unter der EUPL, version 1.2 oder höher
-Für weitere Details siehe Lizenz.txt oder EUPL-1.2 EN.txt
-oder online unter https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12
+Lizenziert unter:
+
+The MIT License (MIT)
+
+Copyright (c) 2021 Oberverwaltungsgericht Rheinland-Pfalz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
