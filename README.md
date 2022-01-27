@@ -6,6 +6,18 @@ Eine generische Software für die sukzessive Abarbeitung von multi-medialen Inha
 
 ---
 
+# Entwicklung
+
+Die Anwendung besteht aus Text-Dateien welche mit jedem Text-Editor verändert werden können. Empfholen wird Visual Studio Code als IDE. Der Kommandozeilenbefehl 'npm run dev' führt dazu das die aktuellen Dateien im Browser angezeigt und Änderungen dargestellt werden. Fehler werden in der Console der "Developer Tools " (F12) ausgegeben.
+
+# Installation 
+
+Hierzu einfach den Projektordner in das Ausgabeverzeichniss eines Webservers kopieren. Der Quellcode muss nicht kompiliert oder gebuildet werden.
+
+# Update
+
+Hierzu alte Daten mit aktuellen Daten überschreiben. Insbesondere die Datei 'index.html'.
+
 # Konfigurationen
 
 * Alle sichtbaren Texte sind in den beiden Text-Dateien im 'configurationen'-Ordner gespeichert.
