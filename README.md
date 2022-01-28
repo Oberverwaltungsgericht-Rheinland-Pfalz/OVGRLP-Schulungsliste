@@ -2,7 +2,7 @@
 
 Eine generische Software für die sukzessive Abarbeitung von multi-medialen Inhalten.
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![](https://img.shields.io/badge/license-MIT-green)![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ---
 
@@ -16,7 +16,7 @@ Hierzu einfach den Projektordner in das Ausgabeverzeichniss eines Webservers kop
 
 # Update
 
-Hierzu alte Daten mit aktuellen Daten überschreiben. Insbesondere die Datei 'index.html'.
+Hierzu alte Daten mit aktuellen Daten überschreiben. Insbesondere die Datei 'index.html', von dort werden alle anderen Dateien referenziert.
 
 # Konfigurationen
 
