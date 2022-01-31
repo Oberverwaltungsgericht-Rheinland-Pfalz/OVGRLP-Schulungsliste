@@ -1,15 +1,16 @@
 import content from '../configuration/karten.js'
 import modal from './modal.js'
-import hinweise from './../configuration/allgemein.js'
+import appconfig from './../configuration/allgemein.js'
 
 export default {
   name: 'Test',
   components: { modal },
   setup () {
-    const title = hinweise.title
+    const title = appconfig.title
 
     return {
-      title, copyrightMark: hinweise.copyrightMark
+      title, 
+      copyrightMark: appconfig.copyrightMark
     }
   },
   data () {
@@ -24,7 +25,7 @@ export default {
     }
   },
   mounted () {
-    const listeJSON = window.localStorage.getItem(hinweise.dbKeyCheckDoors)
+    const listeJSON = window.localStorage.getItem(appconfig.dbKeyCheckDoors)
     if (!listeJSON) return
     const liste = JSON.parse(listeJSON)
     this.liste.push(...liste)
@@ -33,9 +34,15 @@ export default {
     showDay (cDay) {
       const d = new Date()
       const date = d.getDate()
-      if (cDay.tag > date && d.toISOString() < '2021-12-24') {
-        this.openModal(hinweise.waitInfoHeader, hinweise.waitInfo.replace(/{clickedDay}/g, cDay.tag), true)
-        return
+      
+      let activeFromDate = new Date(appconfig.activeFrom)
+      if(!isNaN( activeFromDate.getTime())) {
+        if( d < activeFromDate ||
+          appconfig.cardsTodates && activeFromDate.getMonth() === d.getMonth() &&
+          cDay.tag > date ) {
+          this.openModal(appconfig.waitInfoHeader, appconfig.waitInfo.replace(/{clickedDay}/g, cDay.tag), true)
+          return
+        }
       }
 
       // Zeige Infotext
@@ -51,7 +58,7 @@ export default {
       this.showModal = true
     },
     persist () {
-      window.localStorage.setItem(hinweise.dbKeyCheckDoors, JSON.stringify(this.liste))
+      window.localStorage.setItem(appconfig.dbKeyCheckDoors, JSON.stringify(this.liste))
     },
     isVisible (tag) {
       return this.liste.includes(tag)
