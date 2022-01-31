@@ -83,7 +83,7 @@ export default {
         </div>
       </div>
     </div>
-    <div class="cp-mark">{{ copyrightMark }}</div>
+    <div class="cp-mark" v-html="copyrightMark"></div>
   </div>
     `
 }

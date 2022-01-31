@@ -1,7 +1,7 @@
 export default {
-  title: 'Informationssicherheit',
+  title: 'Informationssicherheits Adventskalender',
   waitInfoHeader: 'Zu früh',
   waitInfo: 'Auf den {clickedDay}. Dezember musst du noch etwas warten 😿',
-  copyrightMark: 'Erstellt von den Mitarbeitern der IT-Sicherheit der Justiz mit Texten des LDI-RLP und Videos des BSI',
+  copyrightMark: 'Erstellt von Mitarbeitern der IT-Sicherheit der Justiz RLP mit Texten und Videos des <a href="https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/cyber-sicherheitsempfehlungen_node.html">BSI</a>',
   dbKeyCheckDoors: 'itsec2021'
 }

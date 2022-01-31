@@ -35,7 +35,9 @@ poststelle(at)ovg.jm.rlp.de
 
 # Lizenz
 
-Copyright © 2021 Oberverwaltungsgericht Rheinland-Pfalz 
+Diese Software ist als Free open-source lizensiert. Bilder, Videos, Texte und andere Inhaltsdaten können dem Urheberrecht dritter unterliegen und unterliegen in diesem Fall nicht dieser Lizensierung.
+
+Copyright © 2021 Oberverwaltungsgericht Rheinland-Pfalz sofern nicht anders vermerkt.
 Lizenziert unter:
 
 The MIT License (MIT)

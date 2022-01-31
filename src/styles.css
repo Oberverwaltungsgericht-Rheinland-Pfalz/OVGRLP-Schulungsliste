@@ -125,5 +125,5 @@ body {
 }
 
 #modal-img {
-    height:100%; max-height: calc(100vh - 5rem); max-width: calc(100vw - 3rem);
+    height:100%; max-height: calc(100vh - 6rem); max-width: calc(100vw - 3rem);
 }

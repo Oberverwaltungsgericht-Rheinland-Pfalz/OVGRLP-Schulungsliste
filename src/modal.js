@@ -42,19 +42,19 @@ export default {
       <h3>{{ header }}</h3>
     </div>
     <div class="modal-content">
-      <span v-if="text" v-html="escape(text)"></span>
-      <video
-        v-if="isVideo"
-        :key="'videokey' + now"
-        :class="'videokey' + now"
-        controls=""
-        autoplay=""
-        name="media"
-        style="height: 100%; width: 100%"
-      >
-        <source :src="'media/' + media" type="video/mp4" />
-      </video>
-      <img v-else-if="isImage" :src="'media/' + media" id="modal-img" />
+    <video
+    v-if="isVideo"
+    :key="'videokey' + now"
+    :class="'videokey' + now"
+    controls=""
+    autoplay=""
+    name="media"
+    style="height: 100%; width: 100%"
+    >
+    <source :src="'media/' + media" type="video/mp4" />
+    </video>
+    <img v-else-if="isImage" :src="'media/' + media" id="modal-img" />
+    <div v-if="text" v-html="escape(text)"></div>
     </div>
   </div>
 </div>`
