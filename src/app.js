@@ -1,4 +1,4 @@
-import content from '../configuration/karten.js'
+import content from '../configuration/inhalte.js'
 import modal from './modal.js'
 import appconfig from './../configuration/allgemein.js'
 

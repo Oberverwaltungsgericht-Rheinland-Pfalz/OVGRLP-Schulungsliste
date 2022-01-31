@@ -22,9 +22,9 @@ Hierzu alte Daten mit aktuellen Daten überschreiben. Insbesondere die Datei 'in
 
 * Alle sichtbaren Texte sind in den beiden Text-Dateien im 'configurationen'-Ordner gespeichert.
 	* In 'allgemein.js' können die allgemeinen texte bearbeitet werden.
-	* In 'karten.js' werden alle sichbaren Inhalte aufgelistet, welche von den Nutzern abgearbeitet werden sollen.
+	* In 'inhalte.js' werden alle sichbaren Inhalte aufgelistet, welche von den Nutzern abgearbeitet werden sollen.
 * Im Ordner images ist das jeweilige Hintergrundbild unter 'hintergrundbild.jpg' abgelegt.
-* Im Ordner media werden alle Bilder und Videos der Inhaltskarten erwartet welche in 'karten.js' definiert werden.
+* Im Ordner media werden alle Bilder und Videos der Inhaltskarten erwartet welche in 'inhalte.js' definiert werden.
 
 # Kontakt
 
