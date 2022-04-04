@@ -1,0 +1,807 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.3",
+  "serialNumber": "urn:uuid:c61e6da2-4020-483c-aaab-43f6e23e1466",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-04-04T10:36:24.667Z",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "Node.js module",
+        "version": "3.6.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:npm/tuerchen-liste-adventskalender@1.2.0",
+      "author": "Oberverwaltungsgericht Rheinland-Pfalz",
+      "name": "tuerchen-liste-adventskalender",
+      "version": "1.2.0",
+      "description": "Für eine Awareness Kampagne der Informationssicherheit programmiert als Adventskalender. Kann beliebig viele Zahlen auflisten, hinter denen sich Texte und Medieninhalte verbergen. Geeignet auch für Schulungsinhalte.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/tuerchen-liste-adventskalender@1.2.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://gitlab.o4oe.de/ovgrlp/tuerchen-liste-adventskalender.git"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/vue@3.2.29",
+      "author": "Evan You",
+      "name": "vue",
+      "version": "3.2.29",
+      "description": "The progressive JavaScript framework for building modern web UI.",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "705230afb2e46ed0916a78cdbe1eabef0a76c94c5fc5e336c8fa4342901f69a2c81994ab5262db3624b37bd9e1049b7932b67af08aadd0ee6c73000c115c45f9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/vue@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/main/packages/vue#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40vue/shared@3.2.29",
+      "author": "Evan You",
+      "group": "@vue",
+      "name": "shared",
+      "version": "3.2.29",
+      "description": "internal utils shared across @vue packages",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "06336953c38ae99d0b573194a69124d023189bf84a0e765f61d8d298f3acd0df9347570b2890240f05bc012654bda6922c48ba77785533b8e75a75feeb25a71f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40vue/shared@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/main/packages/shared#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40vue/compiler-dom@3.2.29",
+      "author": "Evan You",
+      "group": "@vue",
+      "name": "compiler-dom",
+      "version": "3.2.29",
+      "description": "@vue/compiler-dom",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "cb6eaf2b992174d4bd2f7724be4a8993fefca97c166fbe428bc8982dbebb02426e220c8a84839c47513c448b789acc2554221e23d810f9f9ad7616a24c0b6b05"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40vue/compiler-dom@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/main/packages/compiler-dom#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40vue/compiler-core@3.2.29",
+      "author": "Evan You",
+      "group": "@vue",
+      "name": "compiler-core",
+      "version": "3.2.29",
+      "description": "@vue/compiler-core",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "45e3d9fc9e146f7b1bedab50c3a57a45ecfeff92c24471859527ad4f737854cade8ea26734f5ca52de40566ffd179309ae2cb6c3f56e74422f82c7027c25aac7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40vue/compiler-core@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/main/packages/compiler-core#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40babel/parser@7.16.12",
+      "author": "The Babel Team",
+      "group": "@babel",
+      "name": "parser",
+      "version": "7.16.12",
+      "description": "A JavaScript parser",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "55f695d79a68f11899b2cae43f07b2bdb19549ee31db2f9a722142827d27d3f489311db6730a1f455d66b6725061c481d70513680fd7d4b9c0ddeb3ae8c08ee4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40babel/parser@7.16.12",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://babel.dev/docs/en/next/babel-parser"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A+parser+%28babylon%29%22+is%3Aopen"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/babel/babel.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/estree-walker@2.0.2",
+      "author": "Rich Harris",
+      "name": "estree-walker",
+      "version": "2.0.2",
+      "description": "Traverse an ESTree-compliant AST",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "45f924fcca7f0cbec95637b7bb5f05c45ba34254cd476aba41f312301ec0bc2071f753468ff6dade409fcdad1fe9d5436f0ed89517ff9c3ae7ee942b082c90ff"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/estree-walker@2.0.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/Rich-Harris/estree-walker#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Rich-Harris/estree-walker/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/Rich-Harris/estree-walker.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/source-map@0.6.1",
+      "author": "Nick Fitzgerald",
+      "name": "source-map",
+      "version": "0.6.1",
+      "description": "Generates and consumes source maps",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "52381aa6e99695b3219018334fb624739617513e3a17488abbc4865ead1b7303f9773fe1d0f963e9e9c9aa3cf565bab697959aa989eb55bc16396332177178ee"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/source-map@0.6.1",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/mozilla/source-map"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/mozilla/source-map/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+ssh://git@github.com/mozilla/source-map.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40vue/runtime-dom@3.2.29",
+      "author": "Evan You",
+      "group": "@vue",
+      "name": "runtime-dom",
+      "version": "3.2.29",
+      "description": "@vue/runtime-dom",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "60980b40bc2bf92432391cd3b0140b2f94d3ff952257cded128b6a8cbec5f5a1432107450530b0a64085bd7f63ab01e8ca2f6c26a33d5ed4eb31c73ccff3a33c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40vue/runtime-dom@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/main/packages/runtime-dom#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40vue/runtime-core@3.2.29",
+      "author": "Evan You",
+      "group": "@vue",
+      "name": "runtime-core",
+      "version": "3.2.29",
+      "description": "@vue/runtime-core",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "54cbd0b8b773a131a60b020a4ca5702a620bd2a70e0c8a9eef826d2b5a55af9967684d25db9868a687663da83745c9c87085def987b7076a254429fb7d30a08a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40vue/runtime-core@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/main/packages/runtime-core#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40vue/reactivity@3.2.29",
+      "author": "Evan You",
+      "group": "@vue",
+      "name": "reactivity",
+      "version": "3.2.29",
+      "description": "@vue/reactivity",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "47285be86cbad98a252971f582fe36a44ab0c7bcecde7f2069c455648092823433f10afc41e09c1728012987c99b7a3549c711ed4f9b54140359918ec86d64e2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40vue/reactivity@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/main/packages/reactivity#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/csstype@2.6.19",
+      "author": "Fredrik Nicol",
+      "name": "csstype",
+      "version": "2.6.19",
+      "description": "Strict TypeScript and Flow types for style based on MDN data",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "655c5768dcb6f3f937909834168bb9322629a7cf23ec7f612d9a7c3c30b78d5d161637c7e44f711dbe7a2f45b9f5c3db29b7075de3f8ab24fc3eb1e9f2de8b71"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/csstype@2.6.19",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/frenic/csstype#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/frenic/csstype/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/frenic/csstype.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40vue/compiler-sfc@3.2.29",
+      "author": "Evan You",
+      "group": "@vue",
+      "name": "compiler-sfc",
+      "version": "3.2.29",
+      "description": "@vue/compiler-sfc",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5fdfb4770b1a836bba85238ffd7b0c62a16d8bf79dbd8bf16a680180271b498b97c75c4b64df9d4bf1af40a338020192e1d8eaa348d0bd67c85dd7d9d844faf2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40vue/compiler-sfc@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/main/packages/compiler-sfc#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40vue/compiler-ssr@3.2.29",
+      "author": "Evan You",
+      "group": "@vue",
+      "name": "compiler-ssr",
+      "version": "3.2.29",
+      "description": "@vue/compiler-ssr",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2ebbd0c17971ebab96b01f7f57275a6aa12969ef71b6695491e48a17a68f0dbcf1f0cd61eee93168f8cd0805ee15dddf5076e572b8bc938da57e29877f330808"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40vue/compiler-ssr@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/main/packages/compiler-ssr#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40vue/reactivity-transform@3.2.29",
+      "author": "Evan You",
+      "group": "@vue",
+      "name": "reactivity-transform",
+      "version": "3.2.29",
+      "description": "@vue/reactivity-transform",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "605e8774eba174ec3a2b2466e7dfb7acc2fc5126fda3c998335abe487d06e352b7feafc6eee84f9c718abeca7371e0fb87d277551d7068e43ddc25198fb27b38"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40vue/reactivity-transform@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/dev/packages/reactivity-transform#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/magic-string@0.25.7",
+      "author": "Rich Harris",
+      "name": "magic-string",
+      "version": "0.25.7",
+      "description": "Modify strings, generate sourcemaps",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e02acc4f90ce1d30e4e076039739b0bb815509c21823c81abaf79ab2b742bb620a205389ddfd2fffc3031890832fda03da9a73fc0bf56f4363df8e47f4cf9720"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/magic-string@0.25.7",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/rich-harris/magic-string#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/rich-harris/magic-string/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/rich-harris/magic-string.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/sourcemap-codec@1.4.8",
+      "author": "Rich Harris",
+      "name": "sourcemap-codec",
+      "version": "1.4.8",
+      "description": "Encode/decode sourcemap mappings",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f4dca4a23579522878960a394a8e5db70f9fd098095f7d0a08d23c830873d89f40d79c03d0c97ab631cac1fe9f4d26ba7c075505d65e34eb3d789ef5a8293cbc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/sourcemap-codec@1.4.8",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/Rich-Harris/sourcemap-codec"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/Rich-Harris/sourcemap-codec/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/Rich-Harris/sourcemap-codec.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/postcss@8.4.5",
+      "author": "Andrey Sitnik",
+      "name": "postcss",
+      "version": "8.4.5",
+      "description": "Tool for transforming styles with JS plugins",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "8c10dba1633caa96aac2433022da934138858a486cffaece615bdb94515333b32b663b7ac8c29deabda48178b311b4d396369c9b83657489599e16e3afce1062"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/postcss@8.4.5",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://postcss.org/"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/postcss/postcss/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/postcss/postcss.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/nanoid@3.2.0",
+      "author": "Andrey Sitnik",
+      "name": "nanoid",
+      "version": "3.2.0",
+      "description": "A tiny (130 bytes), secure URL-friendly unique string ID generator",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "7e6b1961af65a67ebd01de5e0e7ec531c9e7491fbc477e16f6a2448a3c588536df396cebdb69f543108ccd72caf8e0f25b6f7bdd5dc5bb1f79f62428531cd420"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/nanoid@3.2.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/ai/nanoid#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/ai/nanoid/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/ai/nanoid.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/picocolors@1.0.0",
+      "author": "Alexey Raspopov",
+      "name": "picocolors",
+      "version": "1.0.0",
+      "description": "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "d5fca0ae84cb947bbaeb38b6e95a130eff324609b415c71e72cb2da3e321b19d03fc3196dac9bc13c0235bb354e5555346de46c5b799e6a06e26bf87c8b6248d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "purl": "pkg:npm/picocolors@1.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/alexeyraspopov/picocolors#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/alexeyraspopov/picocolors/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/alexeyraspopov/picocolors.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/source-map-js@1.0.2",
+      "author": "Valentin 7rulnik Semirulnik",
+      "name": "source-map-js",
+      "version": "1.0.2",
+      "description": "Generates and consumes source maps",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "4745ef549f56bac2e2a930848860a620208ca65702908c30475d663920fd091e6ef885d8762b1e784b970950234b9e33ab090b70f367994e0e789ead52b5a10f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:npm/source-map-js@1.0.2",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/7rulnik/source-map-js"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/7rulnik/source-map-js/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/7rulnik/source-map-js.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/%40vue/server-renderer@3.2.29",
+      "author": "Evan You",
+      "group": "@vue",
+      "name": "server-renderer",
+      "version": "3.2.29",
+      "description": "@vue/server-renderer",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "969898c7b72257bad67c9d2d3e4a123a52e6c2a059f454e6426df74be4f88348f57cefcb9a127d6fd0ad975a39c6f20554393d4244945803599fb1f6a57bb157"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40vue/server-renderer@3.2.29",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/vuejs/core/tree/main/packages/server-renderer#readme"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://github.com/vuejs/core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "git+https://github.com/vuejs/core.git"
+        }
+      ]
+    }
+  ]
+}
