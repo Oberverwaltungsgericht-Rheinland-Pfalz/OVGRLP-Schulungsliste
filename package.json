@@ -21,11 +21,10 @@
     "vue": "^3.2.29"
   },
   "devDependencies": {
-    "live-server": "^1.2.1",
+    "live-server": "^1.1.0",
     "standard": "^16.0.4"
   },
   "standard": {
-    
     "ignore": [
       "/Examples/",
       "vue.global.js"
