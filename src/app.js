@@ -38,7 +38,7 @@ export default {
       let activeFromDate = new Date(appconfig.activeFrom)
       if(!isNaN( activeFromDate.getTime())) {
         if( d < activeFromDate ||
-          appconfig.cardsTodates && activeFromDate.getMonth() === d.getMonth() &&
+          appconfig.cardsToDates && activeFromDate.getMonth() === d.getMonth() &&
           cDay.tag > date ) {
           this.openModal(appconfig.waitInfoHeader, appconfig.waitInfo.replace(/{clickedDay}/g, cDay.tag), true)
           return
