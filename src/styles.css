@@ -43,6 +43,9 @@ h1{
 body {
  background-image: url("../images/hintergrund.jpg");
  background-color: #cccccc; background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
 }
 .mark { 
 	color: green;
