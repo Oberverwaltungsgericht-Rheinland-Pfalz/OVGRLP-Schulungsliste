@@ -1,3 +1,4 @@
+const checkWebsite = /(^https:\/\/)|(^http:\/\/)/
 const checkMedia = /(.*\.mp4)|(.*\.ogg)|(.*\.webm)/
 const checkImage = /(.*\.jp[e]?g)|(.*\.png)|(.*\.gif)|(.*\.svg)|(.*\.bmp)|(.*\.webp)/
 
@@ -15,13 +16,15 @@ export default {
     },
     isImage () {
       return checkImage.test(this.media)
+    },
+    isWebsite () {
+      return checkWebsite.test(this.media)
     }
-
   },
   methods: {
     styleModal () {
       if (this.isVideo) return 'height: fit-content;'
-      else if (this.isImage) return 'width: fit-content; max-width: 100vw; max-height: fit-content;'
+      else if (this.isImage || this.isWebsite) return 'width: fit-content; max-width: 100vw; max-height: fit-content;'
       else return ''
     },
     escape (text) {
@@ -42,8 +45,14 @@ export default {
       <h3>{{ header }}</h3>
     </div>
     <div class="modal-content">
+      <iframe v-if="isWebsite" width="853" height="480"
+        :src="media" 
+        title="video player" frameborder="0" allow="accelerometer; 
+        autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" allowfullscreen>
+      </iframe>
       <video
-        v-if="isVideo"
+        v-else-if="isVideo"
         :key="'videokey' + now"
         :class="'videokey' + now"
         controls=""
